@@ -1,0 +1,13 @@
+.reveal section img.no-style {
+  border:none;
+  background:none;
+  box-shadow:none;
+}
+
+.reveal a {
+  color: #65ADAB;
+}
+
+.reveal section .color {
+  color: #65ADAB;
+}
