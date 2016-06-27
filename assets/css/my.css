@@ -4,14 +4,22 @@
   box-shadow:none;
 }
 
+.reveal section h4 {
+    font-size: 1.1em;
+}
+
 .reveal a {
   color: #65ADAB;
+}
+
+.reveal a:hover {
+  color: #fff;
 }
 
 .reveal section .color {
   color: #65ADAB;
 }
 
-img.grayscale {
-    
+.reveal .progress span {
+  background: #65ADAB;
 }
