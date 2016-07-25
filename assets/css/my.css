@@ -12,6 +12,11 @@
   color: #65ADAB;
 }
 
+.controls {
+  display: none;
+  visibility: hidden;
+}
+
 .reveal a:hover {
   color: #fff;
 }
@@ -22,4 +27,28 @@
 
 .reveal .progress span {
   background: #65ADAB;
+}
+
+.reveal .slide-number .slide-number-a {
+  font-size: 16px;
+}
+
+.reveal .controls .navigate-up,
+.reveal .controls .navigate-up.enabled {
+  border-bottom-color: #65ADAB;
+}
+
+.reveal .controls .navigate-left,
+.reveal .controls .navigate-left.enabled {
+  border-right-color: #65ADAB;
+}
+
+.reveal .controls .navigate-down,
+.reveal .controls .navigate-down.enabled {
+  border-top-color: #65ADAB;
+}
+
+.reveal .controls .navigate-right,
+.reveal .controls .navigate-right.enabled {
+  border-left-color: #65ADAB;
 }
